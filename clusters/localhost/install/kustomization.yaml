@@ -10,3 +10,6 @@ commonLabels:
 
 resources:
 - ../../../apps/xbalc-ambulance-ufe
+
+components:
+ - ../../../components/version-developers
