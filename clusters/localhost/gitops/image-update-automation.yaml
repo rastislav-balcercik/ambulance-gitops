@@ -7,7 +7,7 @@ spec:
   interval: 1m0s
   sourceRef:
     kind: GitRepository
-    name: ambulance-gitops # repozitár ktorý sme konfigurovali v predchádzajúcej kapitole
+    name: gitops-repo # repozitár ktorý sme konfigurovali v predchádzajúcej kapitole
   git:
     checkout:
       ref:
