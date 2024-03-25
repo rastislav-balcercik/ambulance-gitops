@@ -7,7 +7,7 @@ spec:
   interval: 1m0s
   sourceRef:
     kind: GitRepository
-    name: gitops-repo # repozitár ktorý sme konfigurovali v predchádzajúcej kapitole
+    name: xbalc-gitops-repo # repozitár ktorý sme konfigurovali v predchádzajúcej kapitole
   git:
     checkout:
       ref:
