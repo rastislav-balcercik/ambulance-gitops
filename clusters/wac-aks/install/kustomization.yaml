@@ -4,12 +4,12 @@ kind: Kustomization
 namespace: wac-hospital
 
 commonLabels:
- app.kubernetes.io/part-of: wac-hospital
- app.kubernetes.io/name: xbalc-ambulance-wl
+  app.kubernetes.io/part-of: wac-hospital
+  app.kubernetes.io/name: xbalc-ambulance-wl
 
 resources:
- - ../../../apps/xbalc-ambulance-ufe
-
+  - ../../../apps/xbalc-ambulance-ufe
+  - ../../../apps/xbalc-ambulance-webapi
 
 components:
- - ../../../components/version-release
+  - ../../../components/version-release
