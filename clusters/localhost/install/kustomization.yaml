@@ -11,6 +11,7 @@ commonLabels:
 resources:
   - ../../../apps/xbalc-ambulance-ufe
   - ../../../apps/xbalc-ambulance-webapi
+  - ../../../apps/mongo-express
 
 components:
   - ../../../components/version-developers
