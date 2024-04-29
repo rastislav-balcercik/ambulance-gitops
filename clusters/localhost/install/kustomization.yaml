@@ -12,6 +12,7 @@ resources:
   - ../../../apps/xbalc-ambulance-ufe
   - ../../../apps/xbalc-ambulance-webapi
   - ../../../apps/mongo-express
+  - ../../../apps/http-echo
 
 components:
   - ../../../components/version-developers
